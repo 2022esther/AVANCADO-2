@@ -1,0 +1,31 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/usuarios/
+
+###
+
+GET http://localhost:8080/usuarios
+
+###
+
+POST http://localhost:8080/usuarios
+Content-Type: application/json
+
+{
+    "email": "esther@gmail.com",
+    "senha": "persastara"
+}
+
+###
+
+PUT http://localhost:8080/usuarios?id=14afddce-d69e-4748-a96c-4544f94684fc
+Content-Type: application/json
+
+{
+    "nome": "esther"
+}
+
+###
+DELETE http://localhost:8080/usuarios?id=

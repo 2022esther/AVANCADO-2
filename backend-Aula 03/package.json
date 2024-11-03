@@ -1,0 +1,14 @@
+{
+  "name": "backend-aula-03",
+  "version": "1.0.0",
+  "main": "exercício.js",
+  "scripts": {
+    "start": "node exercício"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
