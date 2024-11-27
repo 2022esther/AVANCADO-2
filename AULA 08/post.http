@@ -1,0 +1,23 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/posts
+
+###
+
+POST http://localhost:8080/posts
+Content-Type: application/json 
+    
+{
+    "titulo": "meu titulo",
+    "texto": "meu texto",
+    "userId": 20
+}
+
+
+
+###
+
+
+DELETE http://localhost:8080/posts?=

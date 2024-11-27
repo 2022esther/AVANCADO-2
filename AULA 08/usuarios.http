@@ -1,0 +1,22 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/usuarios
+
+###
+
+POST http://localhost:8080/usuarios
+Content-Type: application/json 
+    
+{
+    "email": "esther@gmail.com",
+    "senha": "minhasenha"
+
+}
+
+
+###
+
+
+DELETE http://localhost:8080/usuarios?=
